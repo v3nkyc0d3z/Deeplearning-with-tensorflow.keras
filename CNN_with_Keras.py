@@ -17,7 +17,7 @@ import pickle
 from tensorflow.keras.callbacks import TensorBoard
 import time
 
-create_data = False  #True if you want to normalize the data and save them in a numpy array
+create_data = False  #set True if you want to normalize the data and save them in a numpy array
 post_process = False # set True if you want to dump the data from the numpy array into a pickle
 
 
